@@ -2,3 +2,19 @@
 	path = cookbooks/jenkins
 	url = git://github.com/fnichol/chef-jenkins.git
 	branch = master
+[external "cookbooks/apt"]
+	path = cookbooks/apt
+	url = git://github.com/opscode-cookbooks/apt.git
+	branch = master
+[external "cookbooks/java"]
+	path = cookbooks/java
+	url = git://github.com/opscode-cookbooks/java.git
+	branch = master
+[external "cookbooks/openssl"]
+	path = cookbooks/openssl
+	url = git://github.com/opscode-cookbooks/openssl.git
+	branch = master
+[external "cookbooks/ark"]
+	path = cookbooks/ark
+	url = git://github.com/bryanwb/chef-ark.git
+	branch = master
