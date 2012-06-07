@@ -1,0 +1,4 @@
+[external "cookbooks/jenkins"]
+	path = cookbooks/jenkins
+	url = git://github.com/fnichol/chef-jenkins.git
+	branch = master
