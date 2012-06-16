@@ -4,3 +4,5 @@ cookbooks/apt
 cookbooks/java
 cookbooks/openssl
 cookbooks/ark
+cookbooks/sonar
+cookbooks/git

@@ -18,3 +18,11 @@
 	path = cookbooks/ark
 	url = git://github.com/bryanwb/chef-ark.git
 	branch = master
+[external "cookbooks/sonar"]
+	path = cookbooks/sonar
+	url = git://github.com/ctrabold/chef-sonar.git
+	branch = master
+[external "cookbooks/git"]
+	path = cookbooks/git
+	url = git://github.com/opscode-cookbooks/git.git
+	branch = master
