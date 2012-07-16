@@ -1,7 +1,3 @@
-[external "cookbooks/jenkins"]
-	path = cookbooks/jenkins
-	url = git://github.com/fnichol/chef-jenkins.git
-	branch = master
 [external "cookbooks/apt"]
 	path = cookbooks/apt
 	url = git://github.com/opscode-cookbooks/apt.git
@@ -26,3 +22,11 @@
 	path = cookbooks/git
 	url = git://github.com/opscode-cookbooks/git.git
 	branch = master
+[external "cookbooks/mysql"]
+	path = cookbooks/mysql
+	url = git://github.com/obazoud/mysql.git
+	branch = develop
+[external "cookbooks/jenkins"]
+	path = cookbooks/jenkins
+	url = git://github.com/damm/chef-jenkins.git
+	branch = war

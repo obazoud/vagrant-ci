@@ -1,8 +1,9 @@
 .vagrant
-cookbooks/jenkins
 cookbooks/apt
 cookbooks/java
 cookbooks/openssl
 cookbooks/ark
 cookbooks/sonar
 cookbooks/git
+cookbooks/mysql
+cookbooks/jenkins
