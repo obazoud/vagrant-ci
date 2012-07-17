@@ -6,6 +6,8 @@ Vagrant::Config.run do |config|
   config.vm.forward_port 8080, 8080
   config.vm.forward_port 9000, 9000
 
+  config.vm.provision :shell, :path => "update_chef.sh"
+
   config.vm.provision :chef_solo do |chef|
     chef.cookbooks_path = "cookbooks"
 
