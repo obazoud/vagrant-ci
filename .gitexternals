@@ -28,5 +28,5 @@
 	branch = develop
 [external "cookbooks/jenkins"]
 	path = cookbooks/jenkins
-	url = git://github.com/damm/chef-jenkins.git
+	url = git://github.com/obazoud/chef-jenkins.git
 	branch = war
