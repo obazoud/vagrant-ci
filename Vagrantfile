@@ -37,7 +37,8 @@ Vagrant::Config.run do |config|
       },
       :jenkins => {
         :mirror_url => "http://10.0.2.2/chef/jenkins/war",
-        :version    => "1.474"
+        :version    => "1.474",
+        :checksum   => "6ff0ce7c0426d12dd46f9a62e0a8b2a503862ac0d0c7ba687034d05fb884966e"
       },
       :mysql => {
         :server_debian_password => "root",
