@@ -2,7 +2,11 @@
 # vi: set ft=ruby :
 
 Vagrant::Config.run do |config|
+  config.vm.share_folder "v-apt-cache", "/var/cache/apt/archives", "~/tmp/vagrant/apt/cache"
+  config.vm.share_folder "v-gem-cache", "/opt/vagrant_ruby/lib/ruby/gems/1.8", "~/tmp/vagrant/gems/1.8"
+
   config.vm.box = "precise64"
+
   config.vm.forward_port 8080, 8080
   config.vm.forward_port 9000, 9000
 
