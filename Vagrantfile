@@ -45,6 +45,7 @@ Vagrant::Config.run do |config|
         :bind_address => "0.0.0.0"
       },
       :sonar => {
+        :mirror    => "http://10.0.2.2/chef/sonar",
         :version   => "3.1.1",
         :checksum  => "9606c6f6c79c6b944d9d4a7c5eb6531b",
         :os_kernel => "linux-x86-64",
